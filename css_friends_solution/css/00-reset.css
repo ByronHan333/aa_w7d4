@@ -1,4 +1,4 @@
-/* PHASE 1: Reset */
+/* PHASE 0: Reset */
 
 html, body, header, nav, h1, a,
 ul, li, strong, main, button, i,
@@ -18,9 +18,8 @@ span, article, footer, time, small {
   background: transparent;
 }
 
-ol, ul {
-  list-style-type: none;
-
+ul {
+  list-style: none;
 }
 
 img {
@@ -41,20 +40,9 @@ button {
   */
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
 }
 
 button,
 input[type="submit"] {
   cursor: pointer;
-}
-
-/* Clearfix */
-
-.group:after {
-  // ...
-  content: "";
-  clear: both;
-  // display: table;
-  display: block;
 }
